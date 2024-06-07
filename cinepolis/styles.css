@@ -1,0 +1,27 @@
+/* styles.css */
+#discountMessage {
+  font-weight: bold;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.texto-bienvenida {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #ff6600;
+  font-size: 36px;
+  margin-bottom: 20px;
+}

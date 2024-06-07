@@ -1,0 +1,70 @@
+/* Estilos generales del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Eliminar el margen del título principal */
+h1 {
+  margin: 0;
+}
+
+/* Estilos principales del contenido */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+/* Estilos de cada contenedor de película */
+.movie {
+  background-color: #fff;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Estilos para las imágenes de las películas */
+.movie img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Estilos para los detalles de las películas */
+.details {
+  padding: 1em 0;
+}
+
+/* Estilos para los títulos de las películas */
+.details h2 {
+  margin: 0 0 0.5em;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#discountMessage {
+  font-weight: bold;
+}
